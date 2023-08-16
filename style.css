@@ -1,5 +1,5 @@
 .login-button {
-    background-color: #232121;
+  background: linear-gradient(108deg, #3710ab, #9125bf);
 border: double;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: bold;
@@ -55,10 +55,10 @@ border-radius: 20px;
   margin-right: auto;
 
 }
-
+.circularimg { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; padding: 100px; } .circular--portrait img { width: 100%; height: auto; }
 
 body {
-  background: linear-gradient(120deg, #ad3939, #aa10dd)
+  background: linear-gradient(120deg, #555, #000000)
 }
 
 .center{

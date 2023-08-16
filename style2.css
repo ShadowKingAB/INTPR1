@@ -38,7 +38,12 @@ body {
 }
 
 .sidebar a.active {
-    background-color: #555;
+    background-color: #000000;
+}
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  opacity: 0.7;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
   
   #content {

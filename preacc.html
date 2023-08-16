@@ -6,20 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
     <div class="center">
         <form action="dashboard.html" method="post">
-        <img class="image" src="login.jpg" alt="avatar">
-        <p>
-            <font color="Black" face="Arial Black" size=3>USER Email</font>
-        </p>
-        <input class="text-bar" type="text" placeholder="User Email">
-        <p>
-            <font color="Black" face="Arial Black" size=3>Password</font>
-        </p>
-        <input class="text-bar" type="password" placeholder="Enter Password">
+        <img class="circularimg" src="login.jpg" alt="avatar">
+        <div>
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <label>
+                <font color="Black" face="Arial Black" size=3><u>USER EMAIL</u></font>
+            </label>
+            <input id="email" class="text-bar" type="email" placeholder="User Email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            <label>
+                <font color="Black" face="Arial Black" size=3><u>Password</u></font>
+            </label>
+            <input id="Password" class="text-bar" type="password" placeholder="Enter Password" name="password"
+                required>
+        </div>
+        <br>
 
         <input type="checkbox">
         <label>
@@ -28,7 +39,6 @@
         </label>
         <p>
             <a href="web12.html"><button class="login-button">LOGIN</button></a>
-            <link rel="stylesheet" href="style.css">
         <p>
             <font color="Black" face="Arial Black" size=3><a href="forget.html">forget password?</a></font>
         </p>
